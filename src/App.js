@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Filter, ChevronDown, ChevronUp, Star, Calendar, User, Video, Film, Award, Download, ExternalLink } from 'lucide-react';
+import { Search, Filter, ChevronDown, ChevronUp, Video, Download, ExternalLink } from 'lucide-react';
+
 
 const MovieDatabase = () => {
   const [movies] = useState([
